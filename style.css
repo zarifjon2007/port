@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Charm:wght@400;700&family=Great+Vibes&display=swap');
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.wrapper_container_home {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, black, darkblue, black);
+    align-items: center;
+    display: flex;
+}
+
+.wrapper_container_home_navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: rgba(33, 17, 179, 0.315);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.wrapper_container_home_navbar_left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    color: rgb(184, 6, 6);
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+.wrapper_container_home_navbar_right {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 30px;
+    color: white;
+    padding-right: 30px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+.wrapper_container_home_navbar_right ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.wrapper_container_home_navbar_right ul li {
+    padding: 0 20px;
+}
+
+.wrapper_container_home_navbar_right ul li:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+.wrapper_container_home_navbar_right ul li button {
+    padding: 5px 15px;
+    border: none;
+    background-color: rgb(184, 6, 6);
+    color: white;
+    cursor: pointer;
+}
+
+.wrapper_container_home_navbar_right ul li button:hover {
+    background-color: rgb(13, 7, 105);
+    color: red;
+}
+
+
+.til{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+.bottom{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rasmim{
+    width: 30%;
+    height: 60%;
+    background-color: blueviolet;
+    align-items: center;
+    margin-left: 10%;
+    border-radius: 50%;
+    background-image: url(./photo_2024-12-04_12-24-16.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid darkblue;
+}
+.text{
+    font-size: 150px;
+    font-family: "Charm", cursive;
+    font-weight: 700;
+    font-style: normal;
+    color:white;
+}
+.men{
+    width: 100%;
+    height: 90px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: darkblue;
+    text-align: center;
+    font-size: 50px;
+}
+.men h2{
+    transform: translate(800px);
+}
+.title{
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    font-size: 50px;
+    background-image: linear-gradient(to right,darkblue,blue,darkblue);
+}
